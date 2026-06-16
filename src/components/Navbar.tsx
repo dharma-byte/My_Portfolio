@@ -84,15 +84,6 @@ export default function Navbar() {
             })}
           </ul>
 
-          <div className="hidden md:flex items-center gap-3">
-            <a
-              href="/resume.pdf"
-              download="Dharma_Teja_Putta_Resume.pdf"
-              className="px-4 py-1.5 text-sm font-medium rounded-md bg-accent text-white hover:bg-accent-hover transition-all duration-200 shadow-glow hover:shadow-glow-lg"
-            >
-              Resume
-            </a>
-          </div>
 
           <button
             className="md:hidden p-2 rounded-md text-text-muted hover:text-text hover:bg-surface-2/50 transition-colors"
@@ -123,15 +114,6 @@ export default function Navbar() {
                   {link.label}
                 </button>
               ))}
-              <div className="pt-2 border-t border-border/50 mt-2">
-                <a
-                  href="/resume.pdf"
-                  download="Dharma_Teja_Putta_Resume.pdf"
-                  className="block w-full px-3 py-2.5 text-sm font-medium rounded-md bg-accent text-white hover:bg-accent-hover transition-all text-center"
-                >
-                  Download Resume
-                </a>
-              </div>
             </nav>
           </motion.div>
         )}

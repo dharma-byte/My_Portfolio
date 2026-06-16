@@ -117,26 +117,6 @@ export default function Contact() {
               );
             })}
 
-            {/* Resume CTA */}
-            <motion.div
-              custom={5}
-              variants={variants}
-              initial="hidden"
-              animate={isInView ? "visible" : "hidden"}
-              className="glass-card rounded-2xl p-6 border border-accent/20 bg-gradient-to-br from-accent/10 to-accent/5"
-            >
-              <h3 className="text-sm font-semibold text-text mb-1">Looking for my resume?</h3>
-              <p className="text-xs text-text-muted mb-4 leading-relaxed">
-                Download a PDF copy with my complete experience, projects, and skills summary.
-              </p>
-              <a
-                href="/resume.pdf"
-                download="Dharma_Teja_Putta_Resume.pdf"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-accent text-white text-sm font-medium hover:bg-accent-hover transition-all shadow-glow hover:shadow-glow-lg"
-              >
-                Download Resume (.pdf)
-              </a>
-            </motion.div>
           </div>
 
           {/* Right: Contact form */}

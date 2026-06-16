@@ -138,12 +138,13 @@ export default function Hero() {
             View Projects
           </button>
           <a
-            href="/resume.pdf"
-            download
+            href="/Software_Engineer.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-lg border border-border bg-surface text-text font-medium text-sm hover:border-border-hover hover:bg-surface-2 transition-all duration-200 hover:-translate-y-0.5"
           >
             <Download size={15} />
-            Download Resume
+            View Resume
           </a>
         </motion.div>
 

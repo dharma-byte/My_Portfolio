@@ -132,6 +132,22 @@ export default function About() {
               <MapPin size={14} className="text-accent" />
               <span>Hyderabad, India · Open to remote & hybrid roles</span>
             </motion.div>
+
+            <motion.div
+              custom={6}
+              variants={variants}
+              initial="hidden"
+              animate={isInView ? "visible" : "hidden"}
+            >
+              <a
+                href="/Software_Engineer.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-accent text-white text-sm font-medium hover:bg-accent-hover transition-all duration-200 shadow-glow hover:shadow-glow-lg hover:-translate-y-0.5"
+              >
+                View Resume
+              </a>
+            </motion.div>
           </div>
 
           {/* Right: Stats + Highlights */}
