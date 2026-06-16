@@ -29,7 +29,7 @@ const config: Config = {
         "fade-in": "fadeIn 0.5s ease-in-out",
         "slide-up": "slideUp 0.5s ease-out",
         "slide-in-left": "slideInLeft 0.5s ease-out",
-        pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        spotlight: "spotlight 2s ease 0.75s 1 forwards",
       },
       keyframes: {
         fadeIn: {
@@ -43,6 +43,16 @@ const config: Config = {
         slideInLeft: {
           "0%": { opacity: "0", transform: "translateX(-20px)" },
           "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        spotlight: {
+          "0%": {
+            opacity: "0",
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translate(-50%, -40%) scale(1)",
+          },
         },
       },
       backgroundImage: {

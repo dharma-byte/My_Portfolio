@@ -8,6 +8,11 @@
   --accent: #3B82F6;
   --text: #F8FAFC;
   --text-muted: #94A3B8;
+  /* shadcn/ui CSS variable aliases */
+  --card: #111827;
+  --card-foreground: #F8FAFC;
+  --muted: #1F2937;
+  --muted-foreground: #94A3B8;
 }
 
 * {
